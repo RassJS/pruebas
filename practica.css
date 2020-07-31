@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.principal {
+	background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(oficina.jpg);
+	background-size: cover;
+	height: 500px;
+
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+
+}
+
+.header h1 {
+	font-size: 30px;
+	margin-left: 50px;
+	color: gold;
+	margin-top: 10px;
+}
+
+.header div {
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.header div > a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	font-size: 13px;
+	color: white;
+}
+
+.header div > a:hover {
+	color: gold;
+}
+
+.main {
+	text-align: center;
+	color: white;
+	margin-top: 60px;
+	width: 800px;
+	margin-left: 230px;
+}
+
+.main h1 {
+	margin-top: 10px;
+	font-size: 60px;
+}
+
+.main p {
+	margin-top: 20px;
+
+}
+
+.btn {
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	display: flex;
+	justify-content:center;
+}
+
+.btn p {
+	
+	background: orange;
+	padding: 10px 20px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.btn p:hover {
+	background: blue;
+
+}
+
+.btn .p1 {
+	background: gold;
+	margin-right: 10px;
+}
+
+.btn .p2 {
+	color: gold;
+	background: unset;
+	border: 1px solid gold;
+	margin-left: 10px;
+}
